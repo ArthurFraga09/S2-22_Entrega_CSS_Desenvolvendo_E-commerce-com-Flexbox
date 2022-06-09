@@ -1,0 +1,112 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.menu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.produto-card {
+ width: 24%;
+ margin-bottom: 16px;
+ background-color: #ffffff;
+ border-radius: 10px;
+}
+
+.produto-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.produto-card p {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+img {
+  height: 150px;
+  align-self: center;
+}
+
+.botao-carrinho {
+  background-color: #4c6ef5;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  text-align: center;
+}
+
+/*
+.produto-card {
+  margin: 0 auto;
+  width: 24%;
+  margin-bottom: 16px;
+  text-align: center;
+  background-color: aquamarine;
+  flex-direction: row;
+} */
